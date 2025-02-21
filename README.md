@@ -42,8 +42,6 @@ YumExpress is a modern food delivery platform designed to provide a seamless and
 
 - **Order Summary:** Displays a breakdown of costs, including subtotal, taxes, and delivery fees.
 
-Save for Later: Option to save items in the cart for future orders.
-
 **📱 Responsive Design**
 
 - A mobile-first, user-friendly interface that ensures smooth browsing and ordering on smartphones, tablets, and desktops alike.
