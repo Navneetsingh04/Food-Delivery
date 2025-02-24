@@ -1,9 +1,16 @@
 import React from 'react'
 import './Footer.css'
 import { assets } from '../../assets/assets'
-import { Link } from 'react-router-dom';
+import { Link,useLocation} from 'react-router-dom';
 import AppDownload from '../AppDownload/AppDownload'; 
 const Footer = () => {
+  const location = useLocation();
+
+  const handleHomeClick = () => {
+    if (location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
   return (
     <>
     <div className='footer' id='footer'>
@@ -11,21 +18,29 @@ const Footer = () => {
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
           <p>At YumExpress, we bring delicious meals from your favorite restaurants straight to your doorstep. With a focus on speed, quality, and customer satisfaction, we aim to make every bite memorable. From local delights to international cuisines, explore a world of flavors with us. 
-          <br /><br />YumExpress – where convenience meets taste!</p>
+          <br /><br />YumExpress  where convenience meets taste!</p>
           <div className="footer-social-icon">
             <img src={assets.facebook_icon} alt="" />
             <img src={assets.twitter_icon} alt="" />
             <img src={assets.linkedin_icon} alt="" />
           </div>
+          <div className="footer-bottom">
+          <h3 className="footer-developer">
+          Developed by Navneet Singh 💕
+          </h3>
+          <br />
+          <p className="footer-copyright">
+          Copyright 2025 ©️ YumExpress.com. All Rights Reserved!
+          </p>
         </div>
+          </div>
         <div className="footer-content-center">
           <h2>Quick Links</h2>
-            <ul>
-              {/* <Link to='./Home'><li>Home</li></Link> */}
-              <li>Home</li>
-              <li>About us</li>
-              <li>Delivery</li>
-              <li>Privacy Policy</li>
+          <ul>
+            <li><Link to="/" onClick={handleHomeClick}>Home</Link></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/delivery">Delivery</Link></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
             </ul>
         </div>
         <div className="footer-content-right">
@@ -36,9 +51,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="footer-copyright">
-        Copyright 2025 ©️ YumExpress.com. All Right Reserved
-      </p>
       <hr />
       <AppDownload/>
     </div>

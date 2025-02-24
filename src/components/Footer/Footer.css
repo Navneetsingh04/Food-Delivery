@@ -59,12 +59,20 @@
     background-color: grey;
     border: none;
 }
-
-.footer-copyright {
-    text-align: center;
+.footer-bottom {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 10px 20px;
     font-size: 14px;
     color: #b3b3b3;
-    animation: fadeInText 1s ease-in-out; /* Smooth fade-in for copyright text */
+    animation: fadeInText 1s ease-in-out;
+}
+
+.footer-developer {
+    font-weight: bold;
+    color: #5282b2;
+    animation: bounce 1.5s infinite ease-in-out;
 }
 
 /* Media Queries for Responsiveness */
