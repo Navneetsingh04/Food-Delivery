@@ -28,10 +28,6 @@ const Footer = () => {
           <h3 className="footer-developer">
           Developed by Navneet Singh 💕
           </h3>
-          <br />
-          <p className="footer-copyright">
-          Copyright 2025 ©️ YumExpress.com. All Rights Reserved!
-          </p>
         </div>
           </div>
         <div className="footer-content-center">
@@ -51,6 +47,9 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <p className="footer-copyright">
+          Copyright 2025 ©️ YumExpress.com. All Rights Reserved!
+      </p>
       <hr />
       <AppDownload/>
     </div>
