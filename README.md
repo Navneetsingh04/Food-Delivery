@@ -91,4 +91,6 @@ Start the server
 ## 🤝 Contribution
 
 We welcome contributions! If you’d like to improve the project, feel free to fork the repository, create a new branch, and submit a pull request.
+## License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details [MIT](https://github.com/Navneetsingh04/Food-Delivery-Website/blob/main/LICENSE)
