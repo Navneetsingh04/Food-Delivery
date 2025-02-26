@@ -16,7 +16,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <img className="footer-logo" src={assets.logo} alt="" />
           <p>At YumExpress, we bring delicious meals from your favorite restaurants straight to your doorstep. With a focus on speed, quality, and customer satisfaction, we aim to make every bite memorable. From local delights to international cuisines, explore a world of flavors with us. 
           <br /><br />YumExpress  where convenience meets taste!</p>
           <div className="footer-social-icon">
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="footer-bottom">
           <h3 className="footer-developer">
-          Developed by Navneet Singh 💕
+          Made With 💕 by Navneet Singh
           </h3>
         </div>
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="footer-copyright">
-          Copyright 2025 ©️ YumExpress.com. All Rights Reserved!
+      Copyright 2025 ©️ YumExpress.com. All Rights Reserved!
       </p>
       <hr />
       <AppDownload/>
