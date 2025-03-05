@@ -2,7 +2,7 @@
 # YumExpress - Food Delivery Website
 
 #### 🚀 Live Demo
-- Check out the live website: [YumExpress](https://food-delivery-eta-six.vercel.app/)
+- Check out the live website: [YumExpress](https://yumexpress-delivery.onrender.com)
 
 
 
